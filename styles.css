@@ -1,2 +1,17 @@
 /* import google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,400;0,700;1,400;1,700&family=Syne:wght@400;800&display=swap');
+
+/* basics ================================================================================================ */
+html {
+  font-family: "Source Sans Pro";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Syne";
+  font-weight: 800;
+}
