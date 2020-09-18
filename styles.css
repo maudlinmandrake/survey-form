@@ -51,14 +51,17 @@ header {
 #social-label,
 #email-label,
 #number-label,
-#exp-label {
+#exp-label,
+#act-label,
+.comments {
   font-weight: 800;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="number"],
-select {
+select,
+textarea {
   border: 1px solid lightgrey;
   border-radius: 4px;
   box-sizing: border-box;
@@ -69,6 +72,15 @@ select {
   margin: 10px 0;
 }
 
-input[type="radio"] {
+.input-list {
+  display: block;
   margin: 10px 0;
+}
+
+.comments {
+  margin-bottom: 5px;
+}
+
+textarea {
+  height: 100px;
 }

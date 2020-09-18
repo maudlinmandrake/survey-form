@@ -59,18 +59,49 @@
       </div>
       <div class="form-group">
         <label id="social-label" for="social">What's your preferred community platform?</label><br />
-        <input type="radio" name="social-comm" id="facebook" value="facebook" />
-        <label for="facebook">Facebook Groups</label><br />
-        <input type="radio" name="social-comm" id="discord" value="discord" />
-        <label for="discord">Discord</label><br />
-        <input type="radio" name="social-comm" id="telegram" value="telegram" />
-        <label for="telegram">Telegram</label>
+        <label class="input-list" for="facebook">
+          <input type="radio" name="social-comm" id="facebook" value="facebook" />
+          Facebook Groups
+        </label>
+        <label class="input-list" for="discord">
+          <input type="radio" name="social-comm" id="discord" value="discord" />
+          Discord
+        </label>
+        <label class="input-list" for="telegram">
+          <input type="radio" name="social-comm" id="telegram" value="telegram" />
+          Telegram
+        </label>
       </div>
       <div class="form-group">
-        
+        <label id="act-label" for="activities">What kind of activities, events & content are you interested in?</label><br>
+        <label class="input-list" for="plant-care">
+          <input type="checkbox" name="content" value="plant-care" />
+          Plant Care 101
+        </label>
+        <label class="input-list" for="trade">
+          <input type="checkbox" name="content" value="trade" />
+          Plant Swaps
+        </label>
+        <label class="input-list" for="meet">
+          <input type="checkbox" name="content" value="meet" />
+          Meet-n-Greets
+        </label>
+        <label class="input-list" for="merch">
+          <input type="checkbox" name="content" value="merch" />
+          Official club merch (shirts, pins, patches, etc.)
+        </label>
+        <label class="input-list" for="tours">
+          <input type="checkbox" name="content" value="tours" />
+          Group tours (local greenhouses, public gardens, etc.)
+        </label>
+      </div>
+      <div class="form-group">
+        <label class="textarea-label">
+          <p class="comments">Any comments or suggestions for us?</p>
+          <textarea name="comment" id="suggestions">Enter text here...</textarea>
+        </label>
       </div>
       <!-- TODOS -->
-        <!-- CHECKBOXES: which activities and events are you most interested in? -->
         <!-- TEXTAREA: Questions/Comments/Suggestions -->
         <!-- SUBMIT -->
     </form>
