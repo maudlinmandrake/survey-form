@@ -47,7 +47,13 @@ header {
 
 /* forms =========================================================================================== */
 
-
+#name-label,
+#social-label,
+#email-label,
+#number-label,
+#exp-label {
+  font-weight: 800;
+}
 
 input[type="text"],
 input[type="email"],
