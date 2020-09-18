@@ -4,6 +4,9 @@
 /* basics ================================================================================================ */
 html {
   font-family: "Source Sans Pro";
+  background: url("img/houseplant-1.jpg");
+  background-size: cover;
+
 }
 
 h1,
@@ -14,4 +17,14 @@ h5,
 h6 {
   font-family: "Syne";
   font-weight: 800;
+}
+
+.container {
+  background-color: #fff;
+  margin: auto;
+  width: 800px;
+}
+
+header {
+  text-align: center;
 }
